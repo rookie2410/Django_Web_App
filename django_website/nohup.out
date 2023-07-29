@@ -1,0 +1,29 @@
+Unknown command: '-d'
+Type 'manage.py help' for usage.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+July 29, 2023 - 10:03:58
+Django version 4.2.3, using settings 'django_website.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[29/Jul/2023 10:04:03] "GET /signup/ HTTP/1.1" 200 3020
+[29/Jul/2023 10:04:13] "GET /signup/ HTTP/1.1" 200 3020
+[29/Jul/2023 10:04:14] "GET /signup/ HTTP/1.1" 200 3020
+[29/Jul/2023 10:04:15] "GET /signup/ HTTP/1.1" 200 3020
+[29/Jul/2023 10:04:15] "GET /signup/ HTTP/1.1" 200 3020
+[29/Jul/2023 10:04:15] "GET /signup/ HTTP/1.1" 200 3020
+[29/Jul/2023 10:04:15] "GET /signup/ HTTP/1.1" 200 3020
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+Error: That port is already in use.

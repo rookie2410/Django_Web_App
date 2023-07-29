@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-cr^i7kja%)0art9w*muu)k8jibn%zkfcq_^kktodk-5ju2b-c@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'django_website.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'django_website',
+        'USER': 'master',
+        'PASSWORD': 'admin123',
+        'HOST': 'djangodb1.cxzrvzf4diel.ap-south-1.rds.amazonaws.com',
+        'PORT': '3306',
     }
 }
 
