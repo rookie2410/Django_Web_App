@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'django_website',
         'USER': 'master',
         'PASSWORD': 'admin123',
-        'HOST': 'djangodb1.cxzrvzf4diel.ap-south-1.rds.amazonaws.com',
+        'HOST': 'djangodb1.cx88u3vstaod.us-east-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }

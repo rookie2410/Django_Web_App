@@ -8,7 +8,7 @@ Password=''
 def loginaction(request):
     global Email,Password
     if request.method=="POST":
-        dbConnector=sql.connect(host="djangodb1.cxzrvzf4diel.ap-south-1.rds.amazonaws.com" , user = "master" , passwd="admin123", database="django_website")
+        dbConnector=sql.connect(host="djangodb1.cx88u3vstaod.us-east-1.rds.amazonaws.com" , user = "master" , passwd="admin123", database="django_website")
         cursor = dbConnector.cursor()
         data=request.POST
         for key,value in data.items():
